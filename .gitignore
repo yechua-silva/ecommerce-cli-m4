@@ -1,0 +1,63 @@
+# Maven
+/target/
+**/target/
+!target/.gitkeep
+*.log
+
+# Eclipse
+.classpath
+.project
+.settings/
+*.launch
+*.log
+.buildpath
+.metadata/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Java compiled
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# Build tools
+.gradle/
+build/
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# Generated sources
+generated-sources/
+
+# IDE files
+*.ipr
+*.iws
+
+# OS generated files
+*.DS_Store
