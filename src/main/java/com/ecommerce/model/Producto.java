@@ -11,7 +11,7 @@ public class Producto {
 	
 	public Producto(int id, String nombre, String categoria, double precio) {
 		if (precio <= 0) {
-			throw new IllegalArgumentException();
+			throw new IllegalArgumentException("EL precio debe ser mayor a 0");
 		}
 		this.id = id;
 		this.nombre = nombre;

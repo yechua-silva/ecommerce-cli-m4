@@ -21,7 +21,7 @@ public class Carrito {
 			return producto;
 		}
 		
-		public int getProductos() {
+		public int getCantidad() {
 			return cantidad;
 		}
 		
